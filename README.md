@@ -1,16 +1,15 @@
-Check your browser at http://localhost:3000/
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Blog App
-** This is a blog application that can have users write and post blogs, read blog posts, and edit or delete the posts.
+- This is a blog application that can have users write and post blogs, read blog posts, and edit or delete the posts.
 
-> Description the project.
+
 
 
 ## Built With
 
-- Ruby/Rails
-- PostgreSQL
+  > Ruby/Rails
+  > PostgreSQL
 
 
 
@@ -19,47 +18,31 @@ Check your browser at http://localhost:3000/
 
 Follow the steps bellow to get a local copy up and running.
 
-** Run git clone https://github.com/gabrielcoder247/blog-app-rails.git from your terminal to clone the repo from GitHub.
+- Run git clone https://github.com/gabrielcoder247/blog-app-rails.git from your terminal to clone the repo from GitHub.
 
-** Run cd blog-app to move to the project folder.
+- Run cd blog-app to move to the project folder.
 
-** Run yarn install from the command line to install dependencies.
+-  Run yarn install from the command line to install dependencies.
 
-** Run rails db:create, and rails db:migrate to create database.
+-  Run rails db:create, and rails db:migrate to create database.
 
-** Run rails db:seed to populate the database with the data in the seed file.
+- Run rails db:seed to populate the database with the data in the seed file.
 
-** Run rails s to run the local server
+-  Run rails s to run the local server
 
-To get a local copy up and running follow these simple example steps.
+- To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Gabriel Nwachukwu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/gabrielcoder247)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
