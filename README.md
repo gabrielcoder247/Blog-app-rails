@@ -40,8 +40,8 @@ Follow the steps bellow to get a local copy up and running.
 👤 **Gabriel Nwachukwu**
 
 
-- GitHub: [@githubhandle](https://github.com/gabrielcoder247)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/)
+- GitHub: [@githubhandle](https://github.com/gabrielcoder247).
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/).
 
 
 ## 🤝 Contributing
