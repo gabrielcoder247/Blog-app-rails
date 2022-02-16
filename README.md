@@ -32,7 +32,11 @@ Follow the steps bellow to get a local copy up and running.
 
 - To get a local copy up and running follow these simple example steps.
 
+## Tests
 
+Run the below command on the terminal:
+
+rspec
 
 
 ## Author
