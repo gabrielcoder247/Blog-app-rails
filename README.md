@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Blog App
+ `Blog App`
 - This is a blog application that can have users write and post blogs, read blog posts, and edit or delete the posts.
 
 
 
 
-## Built With
+ `Built With`
 
   > Ruby/Rails
   > PostgreSQL
@@ -14,7 +14,7 @@
 
 
 
-## Getting Started
+`Getting Started`
 
 Follow the steps bellow to get a local copy up and running.
 
@@ -32,6 +32,11 @@ Follow the steps bellow to get a local copy up and running.
 
 - To get a local copy up and running follow these simple example steps.
 
+`Tests`
+
+- Run the below command on the terminal:
+
+rspec
 
 
 
