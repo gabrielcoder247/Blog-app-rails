@@ -28,27 +28,31 @@ Follow the steps bellow to get a local copy up and running.
 
 - Run rails db:seed to populate the database with the data in the seed file.
 
--  Run rails s to run the local server
+-  Run rails s to run the local server.
 
 - To get a local copy up and running follow these simple example steps.
 
+## Tests
+
+Run the below command on the terminal:
+
+rspec
 
 
-
-## Authors
+## Author
 
 👤 **Gabriel Nwachukwu**
 
 
-- GitHub: [@githubhandle](https://github.com/gabrielcoder247)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/)
+- GitHub: [@githubhandle](https://github.com/gabrielcoder247).
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/).
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](../../issues/)
 
 ## Show your support
 
