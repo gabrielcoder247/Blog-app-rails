@@ -8,6 +8,8 @@
       <p>Number of posts: <%= @posts.length %></p>
     </div>
   </div>
+  <h2>Posts:</h2>
+
   <ul>
     <% @posts.each do |post| %>
     <%= link_to "#{root_path}users/#{@user.id}/posts/#{post.id}", class: "text-decoration-none" do %>
@@ -18,15 +20,8 @@
           <span class="align-self-end">Comments: <%= @comments.where(post_id: post.id).count %>, Likes: <%= @likes.where(posts_id: post.id).count %></span>
         </p>
         <h4>Comments:</h4>
-          <%= post.five_recent_comments.length %>
-          <% post.five_recent_comments.each do |single_comment|%>
-          <% if single_comment.post_id == post.id %>
-            <% commentor = User.find_by(id: single_comment.author_id) %>
-            <p>
-              <span><strong><%= commentor.name %></strong>: </span>
-              <span><em><%= single_comment.text %></em></span>
-            </p>
-          <% end %>
+        <% five_comments(post.id).each do |single_comment| %>
+          <p><%= single_comment.text %></p>
         <% end %>
       </li>
       <% end %>

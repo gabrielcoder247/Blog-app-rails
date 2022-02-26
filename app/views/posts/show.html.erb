@@ -5,7 +5,7 @@
     </div>
     <div>
       <p>
-        <span>Comments: <%= @comments.where(post_id: @post.id).count %>, Likes: <%= @likes.where(posts_id: @post.id).count %></span>
+        <span>Comments: <%= @comments.where(post_id: @post.id).count %>, Likes: <%= @likes.where(post_id: @post.id).count %></span>
       </p>
     </div>
   </div>
@@ -23,6 +23,7 @@
         :<%= comment.text %></p>
     <% end %>
   <% end %>
-      <%= render "partials/comment" %>
+            <%= render "partials/comment" %>
+
   </div>
 </div>
