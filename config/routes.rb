@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'users#index'
   post "sign_up", to: "users#create"
   resources :users, only: [:index, :show, :new, :create, :edit, :update] do
