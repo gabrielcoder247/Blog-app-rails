@@ -30,7 +30,7 @@ Follow the steps bellow to get a local copy up and running.
 
 -  Run rails s to run the local server
 
-- To get a local copy up and running follow these simple example steps.
+- To get a local copy up and running follow these simple example steps
 
 
 
