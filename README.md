@@ -10,6 +10,8 @@
 
   > Ruby/Rails
   > PostgreSQL
+  > Devise
+
 
 
 
