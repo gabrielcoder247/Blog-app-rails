@@ -1,13 +1,12 @@
 Rails.application.routes.draw do
-
   root 'users#index'
-
-
-  resource :users, only: [:index, :show] do
-    resource :posts, only: [:index, :show]
+  post "sign_up", to: "users#create"
+  resources :users, only: [:index, :show, :new, :create, :edit, :update] do
+    resources :posts, only: [:index, :show, :new, :create, :edit, :update]
   end
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :posts do
+    resources :comments, only: %i[new create]
+    resources :likes, only: %i[create]
+  end
 end
