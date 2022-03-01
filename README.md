@@ -28,7 +28,7 @@ Follow the steps bellow to get a local copy up and running.
 
 - Run rails db:seed to populate the database with the data in the seed file.
 
--  Run rails s to run the local server
+-  Run rails s to run the local server.
 
 - To get a local copy up and running follow these simple example steps.
 
@@ -40,8 +40,8 @@ Follow the steps bellow to get a local copy up and running.
 👤 **Gabriel Nwachukwu**
 
 
-- GitHub: [@githubhandle](https://github.com/gabrielcoder247)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/)
+- GitHub: [@githubhandle](https://github.com/gabrielcoder247).
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/).
 
 
 ## 🤝 Contributing
