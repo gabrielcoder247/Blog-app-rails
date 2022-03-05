@@ -11,6 +11,8 @@
   > Ruby/Rails
   > PostgreSQL
   > Devise
+  > capybra
+
 
 
 
