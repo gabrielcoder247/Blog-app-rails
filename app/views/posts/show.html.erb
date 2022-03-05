@@ -21,6 +21,8 @@
           <%= user.name if user.id == comment.author_id %>
         <% end %>
         :<%= comment.text %></p>
+
+        <%=button_to 'delete', post_comment_path(post_id: @post.id ,id: comment.id), :method => :delete%>
     <% end %>
   <% end %>
             <%= render "partials/comment" %>

@@ -15,6 +15,16 @@ class CommentsController < ApplicationController
 
   def update; end
 
+  def destroy
+    @post = Post.find(params[:post_id])
+    @comment = @post.comments.find(params[:id])
+    @comment.destroy
+    @post.comments_counter -= 1
+    @post.save
+    redirect_to("/users/#{current_user.id}/posts/#{@post.id}")
+    flash[:success] = 'Comment was deleted!'
+  end
+
   private
 
   def comment_params

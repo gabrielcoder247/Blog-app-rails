@@ -5,6 +5,16 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 
 ruby '3.0.1'
 
+gem 'devise'
+
+gem 'cancancan', '~> 1.9'
+
+# Run against this stable release
+group :development, :test do
+  gem 'database_cleaner'
+  gem 'rspec-rails', '~> 5.0.0'
+end
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.2'
 
@@ -71,9 +81,4 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-end
-
-# Run against this stable release
-group :development, :test do
-  gem 'rspec-rails', '~> 5.0.0'
 end
